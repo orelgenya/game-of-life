@@ -1,0 +1,27 @@
+h2 {
+    color: #337AB7;
+}
+
+table#board {
+    border: 1px solid #9D9D9D;
+    border-collapse: collapse;
+}
+
+td.gol-col {
+    width: 10px;
+    height: 10px;
+    /*border: 1px dashed #eee;*/
+}
+
+td.gol-col.active {
+    background: #ADD49D;
+    border: none;
+}
+
+td.gol-col-even {
+    background: #fafafa;
+}
+
+div.row {
+    margin-bottom: 10px;
+}
